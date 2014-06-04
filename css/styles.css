@@ -78,12 +78,14 @@ body {
 	border-radius: 2.5em;
 }
 
-.images {
+.images,
+.game {
 	display: inline-block;
 	position: relative;
 }
 
-.images img {
+.images img,
+.game img {
 	position: relative;
 	width: 20%;
 	float: center;
@@ -91,6 +93,7 @@ body {
 	margin: 1em;
 	border: 4px solid black;
 }
+
 
 footer p {
 	color: white;
