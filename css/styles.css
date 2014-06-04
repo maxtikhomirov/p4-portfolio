@@ -95,11 +95,29 @@ body {
 }
 
 .images img {
-background: green;
+	-webkit-transform: scale(1);
+    -webkit-transition-property: scale;
+    -webkit-transition-duration: 1s;
 }
 
 .images img:hover {
-	background: purple;
+	-webkit-transform: scale(2);
+    -webkit-transition-property: scale;
+    -webkit-transition-duration: 1s;
+    z-index: 1;
+}
+
+.Game img {
+	-webkit-transform: scale(1);
+    -webkit-transition-property: scale;
+    -webkit-transition-duration: 1s;
+}
+
+.Game img:hover {
+	-webkit-transform: scale(2);
+    -webkit-transition-property: scale;
+    -webkit-transition-duration: 1s;
+    z-index: 1;
 }
 
 
