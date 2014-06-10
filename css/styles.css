@@ -78,6 +78,46 @@ body {
 	border-radius: 2.5em;
 }
 
+.primary-nav {
+	position: fixed;
+	width: 63.25%;
+	height: 10%;
+	z-index: 10000;
+	background: darkblue;
+	border-radius: 25px;
+	top: 0em;
+}
+
+.primary-nav li {
+	display: inline;
+	font-size: 2em;
+	font-weight: bold;
+	padding-left: 0.5em;
+}
+
+.primary-nav li a,
+.primary-nav li a:link {
+	padding-left: 0;
+	text-decoration: none;
+	color: white;
+
+	-webkit-transition: padding-left 0.5s;
+  	-moz-transition: padding-left 0.5s;
+  	-ms-transition: padding-left 0.5s;
+  	-o-transition: padding-left 0.5s;
+  	transition: padding-left 0.5s;
+}
+
+.primary-nav li a:hover {
+  padding-left: 1em;
+  background: skyblue;
+}
+
+.primary-nav li a:active
+ {
+	color: purple;
+}
+
 .images,
 .game {
 	display: inline-block;
@@ -195,6 +235,7 @@ section img {
 	float: left;
 	padding: 2em;
 	border-radius: 50px;
+	margin-top: 2em;
 }
 
 li a {
@@ -232,6 +273,18 @@ Media Queries
 		max-width: 80%;
 	}
 
+	.primary-nav {
+		width: 80%;
+		max-width: 80%;
+		font-size: 0.65em;
+		height: 7%;
+	}
+
+	.primary-nav li {
+		margin-left: -0em;
+		margin-top: 1em;
+	}
+
 	section img {
 		width: 30%;
 		max-width: 30%;
@@ -242,6 +295,7 @@ Media Queries
 		max-width: 35%;
 		font-size: 2em;
 		float: left;
+		margin-top: 1em;
 	}
 
 	p {
