@@ -335,11 +335,23 @@ Media Queries
 		max-width: 80%;
 	}
 
+	.primary-nav {
+		width: 40%;
+		max-width: 40%;
+		font-size: 0.65em;
+		height: 20%;
+	}
+
+	.primary-nav li {
+		margin: 0em;
+	}
+
 	section img {
-		width: 50%;
-		max-width: 50%;
-		float: center;
-		margin-left: 4em;
+		width: 40%;
+		max-width: 40%;
+		float: right;
+		margin-left: 4.2em;
+		margin-top: -1.8em;
 	}
 
 	h1 {
