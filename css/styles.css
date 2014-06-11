@@ -265,6 +265,25 @@ Media Queries
 
 
 /* ========= Tablet ========= */
+@media screen and (min-width: 800px) {
+	.container {
+		width: 80%;
+		max-width: 80%;
+	}
+
+	.primary-nav {
+		width: 80%;
+		max-width: 80%;
+		font-size: 1em;
+		height: auto;
+	}
+
+	.primary-nav li {
+		margin-left: -0em;
+		margin-top: 1em;
+		padding: 0;
+	}
+}
 
 @media screen and (max-width: 800px) {
 
@@ -339,7 +358,7 @@ Media Queries
 		width: 40%;
 		max-width: 40%;
 		font-size: 0.65em;
-		height: 20%;
+		height: auto;
 	}
 
 	.primary-nav li {
